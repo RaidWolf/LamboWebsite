@@ -1,0 +1,619 @@
+body,html{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* --------------------------------------------HEADER-CONTAINER-------------------------------------------------------*/
+
+div.header-container{
+    background-color: #181818;
+    height: 94px;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+}
+
+div.left-header{
+    height: 100%;
+    width: 50%;
+    background-color: #181818;
+}
+
+h4.left-logo{
+    float: left;
+    padding: 0 13px;
+    position: relative;
+    left: 150px;
+    top: 18px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+h4.left-logo:hover{
+    text-decoration: underline;
+}
+
+img.lambo-logo{
+    width: 60px;
+    position: absolute;
+    top: 16px;
+    left: 60px;
+}
+
+div.right-header{
+    height: 100%;
+    width: 50%;
+    background-color: #181818;
+    float: right;
+    position: relative;
+    bottom: 94px;
+}
+
+h4.right-logo{
+    float: left;
+    color: white;
+    padding: 0 13px;
+    position: relative;
+    top: 18px;
+    left: 290px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 200;
+}
+
+h4.right-logo:hover{
+    text-decoration: underline;
+}
+
+img.threeline-ico{
+    position:relative;
+    left: 270px;
+}
+
+img.search-ico{
+    position:relative;
+    left: 280px;
+}
+
+img.message-ico{
+    position:relative;
+    left: 290px;
+}
+
+
+/*  ----------------------------------------------------------CONTAINER-1-----------------------------------------------------------*/
+
+div.container-1{
+    background-color: white;
+    height: 48.8rem;
+    width: 100%;
+}
+
+h2.startfromnothing{
+    color: #ECECEC;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 4rem;
+    position: absolute;
+    left: 6%;
+    top: 250px;
+    line-height: 0.9;
+}
+
+h4.aventador{
+    color: #ECECEC;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 1.7rem;
+    position: absolute;
+    top: 220px;
+    left: 6%;
+}
+
+video.lambo-video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+a.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:42px;
+	border:2px solid #ffffff;
+    display: inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:15px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    position: absolute;
+    top: 500px;
+    left: 6%;
+
+
+}
+a.myButton:hover {
+	background-color:transparent;
+}
+a.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*---------------------------------------------------CONTAINER-2-----------------------------------------------------------*/
+
+div.container-2{
+    height: fit-content;
+    width: 100%;
+    background-color: none;
+    position: relative;
+}
+
+img.lamboselect{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+h3.model{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 2.1rem;
+    font-weight: 500;
+    letter-spacing: 0.063rem;
+    color: #ffffff;
+    position: absolute;
+    top: 2rem;
+    left: 8%;
+}
+
+h1.huracan{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 7rem;
+    color: #ffffff;
+    position: absolute;
+    top: 14rem;
+    left: 10%;
+}
+
+h3.truestory{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #ffffff;
+    position: absolute;
+    bottom: 12.5rem;
+    left: 10%;
+}
+
+
+a.myButton3 {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:42px;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size: 0.9rem;
+	font-weight:bold;
+	padding:0.938rem 1.563rem;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    position: absolute;
+    top: 8rem;
+    left: 8%;
+}
+a.myButton3:hover {
+	background-color:transparent;
+}
+a.myButton3:active {
+	position:relative;
+	top:1px;
+}
+
+a.myButton4 {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:42px;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size: 0.9rem;
+	font-weight:bold;
+	padding:0.938rem 1.563rem;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    position: absolute;
+    top: 8rem;
+    left: 13%;
+}
+a.myButton4:hover {
+	background-color:transparent;
+}
+a.myButton4:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+
+
+/* -----------------------------------------------CONTAINER-3--------------------------------------------------------*/
+
+
+div.container-3{
+    height: 770px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    z-index: -1;
+}
+
+
+h1.urusback{
+    position: relative;
+    top: 120px;
+    left: 8.5%;
+    color: #E7E7E7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25rem;
+    display: inline;
+    z-index: 1;
+}
+
+h3.config{
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    display: inline-block;
+    position: relative;
+    right: 54%;
+    bottom: 95px;
+    z-index: 2;
+}
+
+h2.createurus{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 4.8rem;
+    position: absolute;
+    top: 230px;
+    left: 11%;
+    z-index: 3;
+    display: inline-block;
+}
+
+img.uruspic{
+    position: absolute;
+    right: 0;
+    top:200px;
+    width: 67rem;
+    z-index: 2;
+}
+
+
+a.myButton1{
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:42px;
+	border:2px solid #636363;
+	display:inline-block;
+	cursor:pointer;
+	color:#636363;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:15px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    position: absolute;
+    top: 507px;
+    left: 11%;
+    z-index: 3;
+    
+}
+a.myButton1:hover {
+	background-color:transparent;
+}
+a.myButton1:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*-------------------------------------------------CONTAINER-4------------------------------------------*/
+
+div.container-4{
+    height:fit-content;
+    width: 100%;
+    position: relative;
+    background-color: none;
+    
+}
+
+
+h3.dealer-location{
+    color: white;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    position: absolute;
+    top: 160px;
+    left: 8%;
+}
+
+h1.country-dealer{
+    font-family: 'Roboto' , sans-serif;
+    display:block;
+    color: white;
+    position: absolute;
+    bottom: 11rem;
+    left: 8%;
+    font-size: 4.8rem;
+    line-height: 4.5rem;
+    word-spacing: 0rem;
+    font-weight: bold;
+}
+
+img.lambowheel{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+a.myButton2 {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:42px;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:15px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    position:absolute;
+    top: 26rem;
+    left: 8%;
+
+}
+a.myButton2:hover {
+	background-color:transparent;
+}
+a.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+/*----------------------------------------------------------CONTAINER-5------------------------------------------------------*/
+
+div.container-5{
+    height: 200px;
+    width: 100%;
+    background-color: #f8f8f8;
+    position: relative;
+    bottom: 0.1rem;
+}
+
+h3.news{
+    font-family: 'Roboto' , sans-serif;
+    color: #202020;
+    font-size: 3rem;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 2.5rem;
+    left: 10%;
+    font-weight: 500;
+
+}
+
+h1.world{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 6.5rem;
+    color: #202020;
+    margin: 0;
+    position:absolute;
+    top: 6rem;
+    left: 10%;
+    letter-spacing: 0.063rem;
+    display: inline-block;
+
+}
+
+/*---------------------------------------------------CONTAIINER-6---------------------------------------------------*/
+
+div.container-6{
+    height: 1100px;
+    background-color: white;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h4.march{
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: 1.5rem;
+}
+
+h2.donation{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    top: 3.8rem;
+}
+
+p.ukraine{
+    font-family: 'Roboto' , sans-serif;
+    position: absolute;
+    top: 7.8rem;
+    color: #4d4d4d;
+}
+
+
+
+
+a.buttonClass{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #4D4D4D;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 15px 30px 15px 30px;
+    border: solid #4D4D4D 1px;
+    text-decoration: none;
+    position: absolute;
+    top: 5.3rem;
+    right: 10%;
+}
+  
+a.buttonClass:hover{
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+a.buttonClass11{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #4D4D4D;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 15px 30px 15px 30px;
+    border: solid #4D4D4D 1px;
+    text-decoration: none;
+    position: absolute;
+    top: 30rem;
+    right: 33%;
+}
+  
+a.buttonClass11:hover{
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+a.buttonClass12{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #4D4D4D;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 15px 30px 15px 30px;
+    border: solid #4D4D4D 1px;
+    text-decoration: none;
+    position: absolute;
+    top: 53.4rem;
+    right: 33%;
+}
+  
+a.buttonClass12:hover{
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+a.buttonClass13 {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #202020;
+    padding: 15px 55px 15px 55px;
+    border: solid #4D4D4D 1px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 4rem;
+    left: 41%;
+    
+  }
+  
+  a.buttonClass13:hover {
+    background: #ffffff;
+    color: #202020;
+    text-decoration: none;
+  }
+
+
+
+
+
+img.lambo11{
+    position: relative;
+    top: 14rem;
+    float: left;
+}
+
+p.lamboedition{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    position:relative;
+    top: 13rem;
+    left: 3%;
+}
+
+span.feb{
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.063rem;
+}
+
+img.lambo12{
+    position: relative;
+    top: 20rem;
+    right: 50%;
+}
+
+P.awards{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    position: relative;
+    left: 53%;
+    bottom: 3rem;
+    display: inline-block;
+}
+
+span.feb-12{
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.063rem;
+}
+
+/*------------------------------------------------CONTAINER-7---------------------------------------------------------------*/
+
+
+ 
+
+
+
